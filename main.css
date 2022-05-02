@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+/*==================MENU===================*/
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: deeppink;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+/*===============SLIDER DE IMG===========*/
+
+
+.carousel-inner {
+    max-height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+/*===============Contactos BG===========*/
+#bg-contacto {
+    position: relative;
+    top: -130px;
+}
+
+#seccion-contacto {
+    background-color: darkviolet;
+    min-height: 500px;
+    position: relative;
+}
+
+#contenedor-formulario{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+footer{
+    background-color: black;
+    min-height: 100px;
+
+}
+
+footer p{
+    color: aliceblue;
+    text-align: center;
+}
+#iconos i{font-size: 26px;
+    padding: 0 8px;
+    color: aliceblue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===============MEDIA Q Pantalla SM===========*/
+
+@media(max-width:768px) {
+
+    #intro
+    #equipo {
+        width: 90% !important;
+    }
+}
+
+#equipo p{
+    display: none !important;
+
+}
+
+.servicios-fila {
+    width: 100% !important;
+    text-align: center;
+}
+#bg-contacto {
+        top: -110px;
+}
+
+
+/*===============MEDIA Q Pantalla extra-SM===========*/
+@media(max-width: 576px) {
+    .iconito-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
